@@ -1,2 +1,2 @@
 # jogos_2013
-jogos de 2013 remake
+Um site desenvolvido para apresentar alguns dos principais jogos lançados em 2013, destacando suas histórias, personagens, jogabilidade, características e legado.
