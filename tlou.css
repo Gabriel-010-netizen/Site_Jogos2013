@@ -1,0 +1,144 @@
+.cards2 {
+      grid-template-columns: 1fr 1fr;
+      justify-content: center;
+      display: grid;
+      gap: 40px;
+      margin-top: 40px;
+      transform: translateY(-10px);
+}
+.cards2:hover {
+    transition: 0.3s;
+}
+.principal2 {
+    background-color: #111411;
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.85),
+        rgba(0, 0, 0, 0.88)
+    ), url("imagens/capa-fundo\ tlou.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+   
+    color: #A9AA9B;
+    font-family: "Roboto" sans-serif;
+    line-height: 1.6;
+    padding: 20px 30px;
+    max-width: 1000px;
+}
+.titulo2 {
+    text-align: center;
+
+}
+.card0 {
+    width: 400px;
+    background-color: #151A17;
+    color: #E0E0D8;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px #000;
+    text-align: center;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+.card0:hover {
+    transform: translateY(-10px);
+}
+hr {
+    border: none;
+    height: 1px;
+    background-color: #555;
+    margin-top: 30px;
+}
+.hero {
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    font-size: 11px;
+    padding: 20px;
+    padding-top: 20px;
+    margin-top: 40px;
+    color: #E0E0D8;
+    background-size: cover;
+    background-position: center;
+    transition: 0.3s;
+}
+.hero:hover {
+    transform: translateY(-10px) scale(1.1);
+}
+.joel {
+    background-image: 
+    linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,30)),
+    url(imagens/joel.jpg);
+}
+.ellie {
+    background-image: 
+    linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,30)),
+    url(imagens/ellie.png);
+}
+.tess {
+      background-image: 
+    linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,30)),
+    url(imagens/tess.jpg);
+}
+.bill {
+      background-image: 
+    linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,30)),
+    url(imagens/bill.webp);
+}
+.legado {
+    width: 1000px;
+    height: 300px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 4px rgba(0,0,0,0.80);
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: bold;
+    padding: 20px;
+    padding-top: 20px;
+    margin: 0 auto;
+    margin-top: 40px;
+    color: #E0E0D8;
+    background-image: 
+    linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,30)),
+    url(imagens/legado.avif);
+    background-size: cover;
+    background-position: center;
+}
+
+#botao-musica {
+    background-color: #0B0D0C;
+    color: #E0E0D8;
+    border: 1px solid #596B45;
+    padding: 12px 22px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: 0 0 8px rgba(89, 107, 69, 0.3);
+}
+
+#botao-musica:hover {
+    background-color: #596B45;
+    color: #0B0D0C;
+
+    box-shadow: 0 0 15px rgba(89, 107, 69, 0.6);
+    transform: scale(1.03);
+}
+
+#botao-musica:active {
+    transform: scale(0.98);
+}
+
+#botao-musica {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+}
